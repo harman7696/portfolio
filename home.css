@@ -1,0 +1,179 @@
+.navicons {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    /* margin: 10px;
+    margin-left: 30px; */
+    margin-left: -5px;
+    margin-top: 0px;
+
+}
+
+.nav-menu-item {
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10%;
+}
+
+.nav-menu-item:hover {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(89, 89, 239);
+
+}
+
+#my_name_in_page_1 {
+    font-size: 400%;
+    color: aliceblue;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 30%;
+    /* margin-left: 1%; */
+}
+
+#my_photo_in_page_1 {
+    background-image: url(./partials/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#aboutdiv {
+    height: 70%;
+    width: 70%;
+    /* border: 3px solid black; */
+    
+}
+
+.resume_titles {
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.HRS {
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 5%;
+    border: 2px solid black;
+}
+
+.bar-container {
+    position: relative;
+    max-width: 500px;
+
+    background-color: #FFF;
+
+    padding: 10px 20px;
+    border-radius: 70px;
+
+
+}
+
+.bar-container .skill-box {
+    width: 100%;
+    margin: 25px 0px;
+
+
+}
+
+.skill-box {
+    margin-bottom: 20px;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.skill-box .skill-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0, 0, 0, 0.1);
+
+}
+
+.skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background: #4070f4;
+    border-radius: 6px;
+    animation: progress 1.2s ease-in-out forwards;
+}
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per.html {
+    width: 70%;
+}
+
+.skill-per.css {
+    width: 40%;
+}
+
+.skill-per.C {
+    width: 50%;
+}
+
+.skill-per.cpp {
+    width: 50%;
+}
+
+.skill-per.java {
+    width: 70%;
+}
+
+.skill-per.python {
+    width: 60%;
+}
+
+.skill-per.sql {
+    width: 70%;
+}
+
+.skill-per.Js {
+    width: 10%;
+}
+
+.skill-per.django {
+    width: 40%;
+}
+
+.skill-per.DSA {
+    width: 70%;
+}
+.skillrate
+{
+    margin-left: 95%;
+    margin-top: -10px;
+}
+.contact-name
+{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+.contact-icons{
+    height: fit-content;
+}
